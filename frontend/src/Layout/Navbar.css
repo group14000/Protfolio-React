@@ -1,0 +1,44 @@
+/* App.css */
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .image-container {
+    /* Style for the first div (image) */
+    order: 1; /* Place it on the left side */
+  }
+  
+  .image-container img {
+    width: 50px; /* Adjust image width as needed */
+    height: 50px; /* Adjust image height as needed */
+  }
+  
+  .list-container {
+    /* Style for the second div (unordered list) */
+    order: 2; /* Place it on the right side */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li {
+    margin: 0 10px; /* Adjust the spacing between list items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link text color */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
