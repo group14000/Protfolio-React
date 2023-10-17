@@ -1,0 +1,57 @@
+/* App.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-image: url('background.jpg'); /* Add your background image path here */
+  background-size: cover; /* Ensure the background covers the entire container */
+}
+
+.left-section {
+  flex: 1; /* Takes up 50% of the container width */
+  padding: 20px;
+}
+
+.intro-section {
+  animation: slideIn 1.5s ease-in-out infinite;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.right-section {
+  flex: 1; /* Takes up 50% of the container width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+}

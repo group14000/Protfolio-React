@@ -1,11 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Layout/Navbar';
+import "./App.css";
+import Navbar from "./Layout/Navbar";
 
 function App() {
-  return (
-    <Navbar/>
-  );
+  return <Navbar />;
 }
 
 export default App;
